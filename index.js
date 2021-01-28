@@ -28,7 +28,7 @@ function plus(){
     }
     else{
         document.getElementById("hasil").innerHTML = hasil;
-        console.log(hasil);
+        // console.log(hasil);
     }
     
 }
@@ -64,7 +64,7 @@ function minus(){
     }
     else{
         document.getElementById("hasil").innerHTML = hasil;
-        console.log(hasil);
+        // console.log(hasil);
     }
 }
 
@@ -99,7 +99,7 @@ function multiply(){
     }
     else{
         document.getElementById("hasil").innerHTML = hasil;
-        console.log(hasil);
+        // console.log(hasil);
     }
 }
 
@@ -133,6 +133,6 @@ function division(){
     }
     else{
         document.getElementById("hasil").innerHTML = hasil;
-        console.log(hasil);
+        // console.log(hasil);
     }
 }
