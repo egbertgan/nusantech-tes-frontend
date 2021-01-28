@@ -1,30 +1,29 @@
-// 
 
 function plus(){
-    var x = document.getElementById("inputNum1").value;
-    var numX = parseInt(x);
-    var y = document.getElementById("inputNum2").value;
-    var numY = parseInt(y);
-    var z = document.getElementById("inputNum3").value;
-    var numZ = parseInt(z);
+    let x = document.getElementById("inputNum1").value;
+    let numX = parseInt(x);
+    let y = document.getElementById("inputNum2").value;
+    let numY = parseInt(y);
+    let z = document.getElementById("inputNum3").value;
+    let numZ = parseInt(z);
 
-    var hasil = numX+numY+numZ;
+    let hasil = numX+numY+numZ;
 
     if (!checkbox1.checked && !checkbox2.checked && !checkbox3.checked) {
         alert('all checkbox must be checked');
     }
     else if (!checkbox1.checked) {
-        var hasil = numY+numZ;
+        let hasil = numY+numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox2.checked) {
-        var hasil = numX+numZ;
+        let hasil = numX+numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox3.checked) {
-        var hasil = numX+numY;
+        let hasil = numX+numY;
         document.getElementById("hasil").innerHTML = hasil;
     }
     else{
@@ -36,31 +35,31 @@ function plus(){
 
 function minus(){
 
-    var x = document.getElementById("inputNum1").value;
-    var numX = parseInt(x);
-    var y = document.getElementById("inputNum2").value;
-    var numY = parseInt(y);
-    var z = document.getElementById("inputNum3").value;
-    var numZ = parseInt(z);
+    let x = document.getElementById("inputNum1").value;
+    let numX = parseInt(x);
+    let y = document.getElementById("inputNum2").value;
+    let numY = parseInt(y);
+    let z = document.getElementById("inputNum3").value;
+    let numZ = parseInt(z);
 
-    var hasil = numX-numY-numZ;
+    let hasil = numX-numY-numZ;
 
     if (!checkbox1.checked && !checkbox2.checked && !checkbox3.checked) {
         alert('all checkbox must be checked');
     }
 
     else if (!checkbox1.checked) {
-        var hasil = numY-numZ;
+        let hasil = numY-numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox2.checked) {
-        var hasil = numX-numZ;
+        let hasil = numX-numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox3.checked) {
-        var hasil = numX-numY;
+        let hasil = numX-numY;
         document.getElementById("hasil").innerHTML = hasil;
     }
     else{
@@ -71,31 +70,31 @@ function minus(){
 
 function multiply(){
 
-    var x = document.getElementById("inputNum1").value;
-    var numX = parseInt(x);
-    var y = document.getElementById("inputNum2").value;
-    var numY = parseInt(y);
-    var z = document.getElementById("inputNum3").value;
-    var numZ = parseInt(z);
+    let x = document.getElementById("inputNum1").value;
+    let numX = parseInt(x);
+    let y = document.getElementById("inputNum2").value;
+    let numY = parseInt(y);
+    let z = document.getElementById("inputNum3").value;
+    let numZ = parseInt(z);
 
-    var hasil = numX*numY*numZ;
+    let hasil = numX*numY*numZ;
 
     if (!checkbox1.checked && !checkbox2.checked && !checkbox3.checked) {
         alert('all checkbox must be checked');
     }
 
     else if (!checkbox1.checked) {
-        var hasil = numY*numZ;
+        let hasil = numY*numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox2.checked) {
-        var hasil = numX*numZ;
+        let hasil = numX*numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox3.checked) {
-        var hasil = numX*numY;
+        let hasil = numX*numY;
         document.getElementById("hasil").innerHTML = hasil;
     }
     else{
@@ -106,30 +105,30 @@ function multiply(){
 
 function division(){
 
-    var x = document.getElementById("inputNum1").value;
-    var numX = parseInt(x);
-    var y = document.getElementById("inputNum2").value;
-    var numY = parseInt(y);
-    var z = document.getElementById("inputNum3").value;
-    var numZ = parseInt(z);
+    let x = document.getElementById("inputNum1").value;
+    let numX = parseInt(x);
+    let y = document.getElementById("inputNum2").value;
+    let numY = parseInt(y);
+    let z = document.getElementById("inputNum3").value;
+    let numZ = parseInt(z);
 
-    var hasil = numX/numY/numZ;
+    let hasil = numX/numY/numZ;
 
     if (!checkbox1.checked && !checkbox2.checked && !checkbox3.checked) {
         alert('all checkbox must be checked');
     }
-    else if (!checkbox1.checked) {
-        var hasil = numY/numZ;
+     else if (!checkbox1.checked) {
+        let hasil = numY/numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox2.checked) {
-        var hasil = numX/numZ;
+        let hasil = numX/numZ;
         document.getElementById("hasil").innerHTML = hasil;
     }
     
     else if (!checkbox3.checked) {
-        var hasil = numX/numY;
+        let hasil = numX/numY;
         document.getElementById("hasil").innerHTML = hasil;
     }
     else{
